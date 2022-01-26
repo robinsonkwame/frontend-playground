@@ -33,12 +33,17 @@ This template ships with the main React and Storybook configuration files you'll
     # Install the dependencies
     yarn
     ```
+    # Remove some dependencies that [cause build failures](https://github.com/chromaui/intro-storybook-react-template/issues/6) and update `react-scripts`
+    ```shell
+    yarn remove postcss-safe-parser
+    yarn upgrade --latest react-scripts
+    ```
 
-1.  **Open the source code and start editing!**
+2.  **Open the source code and start editing!**
 
     Open the `taskbox` directory in your code editor of choice and building your first component!
 
-1.  **Browse your stories!**
+3.  **Browse your stories!**
 
     Run `yarn storybook` to see your component's stories at `http://localhost:6006`
 
