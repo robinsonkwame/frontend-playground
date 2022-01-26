@@ -33,7 +33,7 @@ This template ships with the main React and Storybook configuration files you'll
     # Install the dependencies
     yarn
     ```
-    # Remove some dependencies that [cause build failures](https://github.com/chromaui/intro-storybook-react-template/issues/6) and update `react-scripts`
+    Remove some dependencies that [cause build failures](https://github.com/chromaui/intro-storybook-react-template/issues/6) and update `react-scripts`
     ```shell
     yarn remove postcss-safe-parser
     yarn upgrade --latest react-scripts
